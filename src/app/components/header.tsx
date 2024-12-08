@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { FaRegUser } from 'react-icons/fa';
 import { FiSearch } from 'react-icons/fi';
 import { IoMdHeartEmpty } from 'react-icons/io';
