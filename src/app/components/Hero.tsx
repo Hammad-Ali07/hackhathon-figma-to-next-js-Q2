@@ -7,7 +7,7 @@ import Header from './header';
 
 function Hero() {
     return (
-        <div className="bg-[#fbebb5]  mx-auto  max-w-screen-2xl">
+        <div className="bg-[#fbebb5]  mx-auto  w-full">
             <Header />
             <div className="flex flex-col  md:mx-36 justify-around md:flex-row max-w-screen-2xl  p-20">
                 {/* Text Content */}
