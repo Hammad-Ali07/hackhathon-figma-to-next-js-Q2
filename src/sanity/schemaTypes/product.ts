@@ -53,5 +53,16 @@ export default {
       title: 'Category',
       type: 'string',
     },
+    {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'id',
+      },
+    }
+    
+      
+    
   ],
 };

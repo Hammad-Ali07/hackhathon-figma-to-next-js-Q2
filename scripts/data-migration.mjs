@@ -53,7 +53,7 @@ async function importData() {
 
       const sanityProduct = {
         _type: 'product',
-        _id: product.id,
+        id: product.id,
         name: product.name,
         category: product.category,
         description: product.description,
@@ -70,7 +70,9 @@ async function importData() {
               },
             }
           : undefined,
-        imagePath: product.imagePath, // Store original image URL
+        imagePath: product.imagePath,
+        
+         // Store original image URL
       };
 
       await client.create(sanityProduct);
